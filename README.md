@@ -18,3 +18,8 @@
 <li>JavaScript</li>
 <li>Weather API (e.g., OpenWeatherMap)</li>
 </ul>
+<h4>🔑 API Setup</h4>
+<ol>
+Get your API key from OpenWeatherMap
+Replace it in script.js file:</ol>
+const apiKey = "YOUR_API_KEY";
