@@ -1,6 +1,6 @@
 <h1>🌦️ Weather App</h1>
 
-A simple and responsive Weather Web Application that allows users to check real-time weather information for any city.
+<p>A simple and responsive Weather Web Application that allows users to check real-time weather information for any city.</p>
 
 🚀 Features
 1.🌍 Search weather by city name
@@ -9,8 +9,10 @@ A simple and responsive Weather Web Application that allows users to check real-
 4.📱 Responsive design (works on mobile & desktop)
 5.⚡ Fast and user-friendly interface
 
-🛠️ Technologies Used
-HTML
-CSS
-JavaScript
-Weather API (e.g., OpenWeatherMap)
+<h3>🛠️ Technologies Used</h3>
+<ul>
+<Li>HTML</Li>
+<Li>CSS</Li>
+<Li>JavaScript</Li>
+<li>Weather API (e.g., OpenWeatherMap)</li>
+</ul>
