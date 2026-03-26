@@ -1,4 +1,4 @@
-🌦️ Weather App
+<h1>🌦️ Weather App</h1>
 
 A simple and responsive Weather Web Application that allows users to check real-time weather information for any city.
 
