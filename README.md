@@ -18,7 +18,8 @@
 <li>JavaScript</li>
 <li>Weather API (e.g., OpenWeatherMap)</li>
 </ul>
-<h1>🔑 API Setup</h1>
+
+<h2>🔑 API Setup</h2>
 <ul>
 <li>Get your API key from OpenWeatherMap</li>
 <li>Replace it in script.js file:</li>
