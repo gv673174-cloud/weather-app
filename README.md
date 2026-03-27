@@ -1,4 +1,4 @@
-<h1>🌦️ Weather App</h1>
+<h>🌦️ Weather App</h>
 
 <p>A simple and responsive Weather Web Application that allows users to check real-time weather information for any city.</p>
 
@@ -35,7 +35,6 @@ const apiKey = "YOUR_API_KEY";
 
 <h1>👨‍💻 Author</h1>
 
-<p>Gautam Verma</p>
-Frontend Developer
+<p><b>Gautam Verma</b><br>Frontend Developer</p>
 
-⭐ If you like this project, give it a star!
+  <p>⭐ If you like this project, don’t forget to star the repository!</p>
