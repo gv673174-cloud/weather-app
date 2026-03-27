@@ -1,8 +1,8 @@
-<h>🌦️ Weather App</h>
+<h1>🌦️ Weather App</h1>
 
 <p>A simple and responsive Weather Web Application that allows users to check real-time weather information for any city.</p>
 
-<h1>🚀 Features</h1>
+<h2>🚀 Features</h2>
 <ul>
 <li>🌍 Search weather by city name</li>
 <li>🌡️ Displays temperature, humidity, and weather condition</li>
@@ -11,7 +11,7 @@
 <li>⚡ Fast and user-friendly interface</li>
 </ul>
 
-<h1>🛠️ Technologies Used</h1>
+<h2>🛠️ Technologies Used</h2>
 <ul>
 <li>HTML</li>
 <li>CSS</li>
@@ -25,7 +25,7 @@
 </ul>
 const apiKey = "YOUR_API_KEY";
 
-<h1>💡 What I Learned </h1>
+<h2>💡 What I Learned </h2>
 <ul>
 <li>Working with APIs using JavaScript</li>
 <li>Handling asynchronous operations (fetch/async-await)</li>
@@ -33,7 +33,7 @@ const apiKey = "YOUR_API_KEY";
 <li>Building responsive layouts</li>
 </ul>
 
-<h1>👨‍💻 Author</h1>
+<h2>👨‍💻 Author</h2>
 
 <p><b>Gautam Verma</b><br>Frontend Developer</p>
 
