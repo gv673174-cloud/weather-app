@@ -34,7 +34,7 @@ const apiKey = "YOUR_API_KEY";
 <li>Building responsive layouts</li>
 </ul>
 
-<h2>👨‍💻 author</h2>
+<h2>👨‍💻 Author</h2>
 
 <p><b>Gautam Verma</b><br>Frontend Developer</p>
 
