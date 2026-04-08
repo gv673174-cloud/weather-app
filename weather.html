@@ -3,49 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Weather App</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #74ebd5, #9face6);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-    }
-
-    .weather-box {
-      background: white;
-      padding: 25px;
-      border-radius: 15px;
-      text-align: center;
-      width: 300px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    }
-
-    input {
-      width: 70%;
-      padding: 8px;
-      margin-bottom: 10px;
-    }
-
-    button {
-      padding: 8px 15px;
-      cursor: pointer;
-      border: none;
-      background: #4CAF50;
-      color: white;
-      border-radius: 5px;
-    }
-
-    .result {
-      margin-top: 15px;
-    }
-
-    img {
-      width: 80px;
-    }
-  </style>
+  <link rel="stylesheet" href="weather.css"> 
 </head>
 <body>
 
@@ -55,44 +13,11 @@
     <input type="text" id="city" placeholder="Enter city name">
     <br>
     <button onclick="getWeather()">Get Weather</button>
-
+    
     <div class="result" id="result"></div>
   </div>
 
-<script>
-async function getWeather() {
-  const city = document.getElementById("city").value;
-  const apiKey = "d846e205cafc8dfd44b28e711b25e3c8"; // 🔴 replace this
-
-  if (!city) {
-    alert("Please enter a city name");
-    return;
-  }
-
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
-
-  try {
-    const response = await fetch(url);
-    const data = await response.json();
-
-    if (data.cod !== 200) {
-      document.getElementById("result").innerHTML = "City not found ❌";
-      return;
-    }
-
-    document.getElementById("result").innerHTML = `
-      <h3>${data.name}</h3>
-      <img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png">
-      <p><strong>${data.weather[0].main}</strong></p>
-      <p>🌡 Temp: ${data.main.temp} °C</p>
-      <p>💧 Humidity: ${data.main.humidity}%</p>
-      <p>👀 Visibility: ${data.visibility} m</p>
-    `;
-  } catch (error) {
-    document.getElementById("result").innerHTML = "Error fetching weather ⚠️";
-  }
-}
-</script>
+<script src="weather.js"></script>
 
 </body>
 </html>
